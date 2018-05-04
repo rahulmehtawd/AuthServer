@@ -17,7 +17,7 @@ curl -X POST \
   -d 'client_id=client&username=user&password=user&grant_type=password'
 
 # What is Authentication Server ?
-An authentication server is an application that facilitates authentication of an entity that attempts to access a network. Such an entity may be a human user or another server. It genrates a token which is passed for Authentication of User.
+An authentication server is an application that facilitates authentication of an entity that attempts to access a network. Such an entity may be a human user or another server. It generates a token which is passed for Authentication of User.
 
 # How can we build an Auth Server using Spring Security ?
 In this application we are using some basic jars(web,security, oauth2)provided by Spring Framework. Spring security provides way to secure application based on Spring Filter Chain Processing.
