@@ -19,10 +19,10 @@ public class WebSecurity extends WebSecurityConfigurerAdapter {
 				.password("abc123").roles("ADMIN");
 	}
 
-	@Override
-	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().withUser("Rahul").password("Pass").roles("USER");
-	}
+//	@Override
+//	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+//		auth.inMemoryAuthentication().withUser("Rahul").password("Pass").roles("USER");
+//	}
 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {

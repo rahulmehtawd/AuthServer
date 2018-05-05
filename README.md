@@ -16,8 +16,10 @@ curl -X POST \
   -H 'Postman-Token: e52d1a4f-69e6-1fb7-3d43-b83de93c9e14' \
   -d 'client_id=client&username=user&password=user&grant_type=password'
 
+Postman Link :https://www.getpostman.com/collections/031a64c3cc13a80604df
+
 # What is Authentication Server ?
-An authentication server is an application that facilitates authentication of an entity that attempts to access a network. Such an entity may be a human user or another server. It genrates a token which is passed for Authentication of User.
+An authentication server is an application that facilitates authentication of an entity that attempts to access a network. Such an entity may be a human user or another server. It generates a token which is passed for Authentication of User.
 
 # How can we build an Auth Server using Spring Security ?
 In this application we are using some basic jars(web,security, oauth2)provided by Spring Framework. Spring security provides way to secure application based on Spring Filter Chain Processing.
